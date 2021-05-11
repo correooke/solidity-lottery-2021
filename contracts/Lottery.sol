@@ -56,7 +56,7 @@ contract Lottery is ILottery {
         return _status;
     }
 
-    function buyTicket(string calldata playerName) external payable {
+    function buyTicket(string calldata playerName) override external payable {
         buyTicketInternal(playerName);
     }
 

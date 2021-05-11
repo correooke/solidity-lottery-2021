@@ -5,4 +5,5 @@ interface ILottery {
     function activate(uint ticketCost) external;
     function getTicketCost() view external returns(uint);
     function pickWinner() external;
+    function buyTicket(string calldata playerName) external payable;
 }
