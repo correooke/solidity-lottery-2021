@@ -1,3 +1,13 @@
+Es necesario instalar truffle
+
+### Compilación
+
+truffle compile
+
+### Test
+
+truffle test
+
 npm install @truffle/hdwallet-provider@1.2.2
 
 truffle deploy --network kovan
